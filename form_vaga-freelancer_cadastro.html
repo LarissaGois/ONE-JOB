@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONE JOB - Formulário Freelancer</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/css/style_form_vaga-freelancer_cadastro.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <!--<a href="https://br.freepik.com/fotos-gratis/medico-serio-em-mascara-medica-e-bone-olhando_7109982.htm#query=profiss%C3%B5es&position=13&from_view=search">Imagem de drobotdean</a> no Freepik-->
+  <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+  <!--<a href="https://br.freepik.com/fotos-gratis/zelador-masculino-asiatico-alegre-andando-no-quarto-de-hotel-carregando-suprimentos-no-balde_5577541.htm#query=profiss%C3%B5es&position=30&from_view=search">Imagem de pressfoto</a> no Freepik-->
+  <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+  <!--<a href="https://br.freepik.com/fotos-gratis/gerente-de-sucesso-feliz-segurando-oculos_6101392.htm#query=profissionais&position=47&from_view=keyword">Imagem de pch.vector</a> no Freepik-->
+</head>
+
+<body id="top" style="background-image: url('./assets/images/Fundo.png')">
+
+  <!-- 
+    - #HEADER
+  -->
+
+   <!-- Início Seção Cabeçalho -->
+   <header class="header" data-header>
+    <div class="container">
+      <!-- Nome Logo -->
+      <h1>
+        <a href="onejob.html" class="logo">ONE JOB</a>
+      </h1>
+
+      <!-- Cabeçalho -->
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <!-- Link Logo -->
+          <a href="onejob.html" class="logo">ONE JOB</a>
+          <!-- Butão Cabeçalho -->
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <!-- Ícone -->
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <!-- Lista de categoria/páginas -->
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob.html" class="navbar-link" data-nav-toggler>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_sobre-nos.html" class="navbar-link" data-nav-toggler>Sobre Nós</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_areas.html" class="navbar-link" data-nav-toggler>Áreas de Atuação</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_vaga-freelancer_cadastro.html" class="navbar-link" data-nav-toggler>Cadastrar Freelancer</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_cadastro_vaga.html" class="navbar-link" data-nav-toggler>Anunciar Vagas</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_blog.html" class="navbar-link" data-nav-toggler>Blog</a>
+          </li>
+          
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_ONG_cadastro.html" class="navbar-link" data-nav-toggler>ONGs</a>
+          </li>
+
+          <li class="navbar-item"><!-- Nome Link -->
+            <a href="TERMOSECONDICOES.html" class="navbar-link" data-nav-toggler>Termos e Condições</a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+      <!-- Cabeçalho -->
+
+      <div class="header-actions">
+        <!-- Botão integrado a página de Login-Registro-->
+        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        <!-- Link Botão  -->
+        <a href="login-registro.html" class="header-action-btn login-btn">
+          <!-- ícone -->
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          <!-- Texto Botão  -->
+          <span class="span">Login / Registro</span>
+        </a>
+        <!-- Botão abrir cabeçalho -->
+        <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+          <!-- ícone -->
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+   <!-- FIM Seção Cabeçalho -->
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+   <!-- Início Seção Caixa de Pesquisa -->
+  <div class="search-container" data-search-box>
+    <div class="container">
+       <!-- Botão search box -->
+      <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+        <!-- ícone -->
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+       <!-- Texto Botão -->
+      <div class="search-wrapper">
+        <input type="search" name="search" placeholder="Search Here..." aria-label="Search" class="search-field">
+        <!-- Botão confirmação/enviar -->
+        <button class="search-submit" aria-label="Submit" data-search-toggler>
+          <!-- ícone -->
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <main>
+    <article>
+
+      <!-- FIM Seção Caixa de Pesquisa -->
+
+
+
+  <!-- 
+    - #FORM
+  -->
+
+
+<!-- Início Formulário Freelancer -->
+  <main>
+    <article>
+
+
+<div id="main-container">
+
+    <!-- Título Formulário -->
+    <h1>CADASTRO FREELANCER</h1>
+    <form id="register-form" action="">
+      <!-- Seção Caixa de Texto Nome da Vaga -->
+      <div class="half-box spacing">
+          <label for="name">Nome da Vaga</label>
+          <input type="text" name="name" id="name" placeholder="Digite o nome da vaga" data-required data-min-length="3" data-max-length="16">
+      </div>
+      <!-- Seção Área da Vaga -->
+      <div class="half-box">
+        <!-- Lista de Áreas de Trabalho -->
+          <label for="lastname">Área</label>
+          <input list="areas">
+        <datalist id="areas">
+            <option value="Administração" />
+            <option value="Saúde" />
+            <option value="Engenharia" />
+        </datalist>
+      </div>
+      <!-- Caixa de Texto Salário -->
+      <div class="half-box spacing">
+        <label for="lastname">Valor</label>
+        <input  type="text" maxlength="9" id="valor" onkeyup="formatarMoeda()">
+      </div>
+      
+      <!-- Caixa de Texto Descrição de Vagas -->
+      <div class="full-box">
+        <label for="email">Descrição Vaga</label>
+        <input type="name" name="descricao" id="description" placeholder="descrição" data-min-length="5" data-max-length="30" >
+      </div>
+      <div>
+        <!-- Caixa de Confirmação de Termos de Uso -->
+        <input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+      </div>
+      <!-- Botão -->
+      <div class="full-box">
+        <input id="btn-submit" type="submit" value="Registrar">
+      </div>
+    </form>
+  </div>
+  <p class="error-validation template"></p>
+  
+<!-- FIM Formulário Freelancer -->
+
+  
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+<!-- Início Seção Rodapé -->
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <!--Seleção de Título-->
+        <a href="#" class="logo">One Job</a>
+        <!--Seleção de Texto-->
+        <p class="section-text">
+          A partir das pesquisas realizadas voltadas ao desenvolvimento tecnológico, criou-se a plataforma em parceria com o 3° ETIM em Desenvolvimento de Sistemas e Administração.
+        </p>
+
+        <!--Lista de redes-sociais-->
+        <ul class="social-list">
+          <!--facebook-->
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <!--twitter-->
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <!--linkedin-->
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <!--instagram-->
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!--Lista de links rodapé-->
+      <ul class="footer-list">
+        <!-- Título -->
+        <li>
+          <p class="footer-list-title">Explorar</p>
+        </li>
+
+        <li>
+          <a href="onejob_sobre-nos.html" class="footer-link">
+            <!-- ícone -->
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Sobre Nós</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="onejob_areas.html" class="footer-link">
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Áreas de atuação</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="form_vaga-freelancer_cadastro.html" class="footer-link">
+            <!-- ícone -->
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Cadastro Freelancer</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="form_ONG_cadastro.html" class="footer-link">
+            <!-- ícone -->
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Cadastro ONGs</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">
+            <!-- ícone -->
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Privacidade e Política</span>
+          </a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+        <!-- Título -->
+        <li>
+          <p class="footer-list-title">Links</p>
+        </li>
+
+        <li>
+          <a href="onejob_contato.html" class="footer-link">
+            <!-- ícone -->
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Contato</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="onejob_blog.html" class="footer-link">
+            <!-- ícone -->
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Blog</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">
+            <!-- ícone -->
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Anunciar vagas</span>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="TERMOSECONDICOES.html" class="footer-link">
+            <!-- ícone -->
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            <!-- Nome Link -->
+            <span class="span">Termos & Condições</span>
+          </a>
+        </li>
+
+      </ul>
+      <!-- Lista de Informações e contato OneJob -->
+      <ul class="footer-list">
+        <!-- Título -->
+        <li>
+          <p class="footer-list-title">Contato/Informações</p>
+        </li>
+        <!-- Endereço -->
+        <li class="footer-item">
+          <!-- ícone -->
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          <!-- Link endereço -->
+          <address class="footer-link">
+            Av. Conselheiro Rodrigues Alves, 1401, Vila Mariana - SP
+          </address>
+        </li>
+
+        <!-- Telefone 1 -->
+        <li class="footer-item">
+          <!-- ícone -->
+          <ion-icon name="call" aria-hidden="true"></ion-icon>
+          <!-- Link Número 1 -->
+          <a href="tel:+551197657839" class="footer-link">+ 55 (11) 9765-7839</a>
+        </li>
+
+        <!-- Telefone 2 -->
+        <li class="footer-item">
+          <!-- ícone -->
+          <ion-icon name="call" aria-hidden="true"></ion-icon>
+          <!-- Link Número 2 -->
+          <a href="tel:+551197657840" class="footer-link">+ 55 (11) 9765-7840</a>
+        </li>
+
+        <!-- Email -->
+        <li class="footer-item">
+          <!-- ícone -->
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          <!-- Link endereço email -->
+          <a href="mailto:contact@gatch.com" class="footer-link">contact@gatch.com</a>
+        </li>
+
+      </ul>
+
+    </div>
+    <!-- Botão Copyright -->
+    <div class="footer-bottom">
+      <!-- Link Copyright -->
+      <p class="copyright">
+        Copyright 2022 Gatch. All Rights Reserved by <a href="#" class="copyright-link">onejob</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+<!-- FIM Seção Rodapé -->
+
+
+
+
+
+
+<!-- 
+  - #BACK TO TOP
+-->
+
+<!-- Início Botão  De Volta Pro Topo -->
+<!-- Link de Ordem -->
+<a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+  <!-- ícone -->
+  <ion-icon name="arrow-up"></ion-icon>
+</a>
+
+
+
+
+
+<!-- 
+  - js link
+-->
+<script src="./assets/js/validator_form_vaga_cadastro.js" defer></script>
+
+<!-- 
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

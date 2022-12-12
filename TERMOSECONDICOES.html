@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONE JOB - Pelo job dos seus sonhos</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/TERMOSECONDICOES.CSS">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <!--<a href="https://br.freepik.com/fotos-gratis/medico-serio-em-mascara-medica-e-bone-olhando_7109982.htm#query=profiss%C3%B5es&position=13&from_view=search">Imagem de drobotdean</a> no Freepik-->
+  <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+  <!--<a href="https://br.freepik.com/fotos-gratis/zelador-masculino-asiatico-alegre-andando-no-quarto-de-hotel-carregando-suprimentos-no-balde_5577541.htm#query=profiss%C3%B5es&position=30&from_view=search">Imagem de pressfoto</a> no Freepik-->
+  <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+  <!--<a href="https://br.freepik.com/fotos-gratis/gerente-de-sucesso-feliz-segurando-oculos_6101392.htm#query=profissionais&position=47&from_view=keyword">Imagem de pch.vector</a> no Freepik-->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+   <!-- Início Seção Cabeçalho -->
+   <header class="header" data-header>
+    <div class="container">
+      <!-- Nome Logo -->
+      <h1>
+        <a href="onejob.html" class="logo">ONE JOB</a>
+      </h1>
+
+      <!-- Cabeçalho -->
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <!-- Link Logo -->
+          <a href="onejob.html" class="logo">ONE JOB</a>
+          <!-- Butão Cabeçalho -->
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <!-- Ícone -->
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        
+        <!-- Lista de categoria/páginas -->
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob.html" class="navbar-link" data-nav-toggler>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_sobre-nos.html" class="navbar-link" data-nav-toggler>Sobre Nós</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_areas.html" class="navbar-link" data-nav-toggler>Áreas de Atuação</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_vaga-freelancer_cadastro.html" class="navbar-link" data-nav-toggler>Cadastrar Freelancer</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_cadastro_vaga.html" class="navbar-link" data-nav-toggler>Anunciar Vagas</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_blog.html" class="navbar-link" data-nav-toggler>Blog</a>
+          </li>
+          
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_ONG_cadastro.html" class="navbar-link" data-nav-toggler>ONGs</a>
+          </li>
+
+          <li class="navbar-item"><!-- Nome Link -->
+            <a href="TERMOSECONDICOES.html" class="navbar-link" data-nav-toggler>Termos e Condições</a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+      <!-- Cabeçalho -->
+
+      <div class="header-actions">
+        <!-- Botão integrado a página de Login-Registro-->
+        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        <!-- Link Botão  -->
+        <a href="login-registro.html" class="header-action-btn login-btn">
+          <!-- ícone -->
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          <!-- Texto Botão  -->
+          <span class="span">Login / Registro</span>
+        </a>
+        <!-- Botão abrir cabeçalho -->
+        <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+          <!-- ícone -->
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+   <!-- FIM Seção Cabeçalho -->
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+   <!-- Início Seção Caixa de Pesquisa -->
+  <div class="search-container" data-search-box>
+    <div class="container">
+       <!-- Botão search box -->
+      <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+        <!-- ícone -->
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+       <!-- Texto Botão -->
+      <div class="search-wrapper">
+        <input type="search" name="search" placeholder="Search Here..." aria-label="Search" class="search-field">
+        <!-- Botão confirmação/enviar -->
+        <button class="search-submit" aria-label="Submit" data-search-toggler>
+          <!-- ícone -->
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <main>
+    <article>
+
+      <!-- FIM Seção Caixa de Pesquisa -->
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section termos" aria-label="termos">
+        <div class="container">
+
+          <p class="section-subtitle">Termos e Condições</p>
+
+          <h2 class="h2 section-title">AVISO LEGAL</h2>
+
+          <p class="section-text">O presente documento tem por objeto estabelecer as Condições Gerais de Uso do site One Job na Internet pertencente a Gatch Ltda, com sede fiscal à Av. Conselheiro Rodrigues Alves, 1401, Vila Mariana – SP, 06018-180. </p>
+          <p class="section-text">A finalidade da One Job é a de disponibilizar uma plataforma que permite o encontro entre empresas e candidatos em um ambiente online. Nesse sentido, permite às empresas registradas o acesso à base de dados de candidatos registrados no site, a publicação de vagas de emprego, a inclusão do CV por parte do candidato através do menu privado e outros serviços relacionados com o setor do emprego.</p>
+          <p class="section-text">O site se reserva o direito de modificar sem prévio aviso as presentes Condições Gerais de Uso com o objetivo de adequá-las à legislação vigente aplicável em cada momento, às novidades jurisprudenciais e às práticas habituais do mercado.</p>
+          <p class="section-text">Os criadores e colaboradores do site poderão a seu exclusivo critério e em qualquer tempo, modificar ou desativar o site, bem como limitar, cancelar ou suspender seu uso ou o acesso. Também estes Termos de Uso poderão ser alterados a qualquer tempo. Visite regularmente esta página e consulte os Termos então vigentes. Algumas disposições destes Termos podem ser substituídas por termos ou avisos legais expressos localizados em determinadas páginas deste site.</p>
+        
+          <h2 class="h2 section-title">CONDIÇÕES LEGAIS PARA CANDIDATOS</h2>
+          <p class="section-text">O site entende por Candidatos, os usuários pessoas físicas que buscam emprego, que utilizem os serviços da One Job e acesse o site do qual é titular, Gatch Ltda.</p>
+          <p class="section-text">Nesse sentido, o site tem como objetivo disponibilizar ao candidato o acesso a vagas de emprego e às empresas a possibilidade de cadastrar serviços.</p>
+          <p class="section-text">A utilização por parte do Usuário de qualquer dos Serviços do site supõe e expressa sua adesão e aceitação expressa a todas as Condições Gerais de Uso na versão publicada no presente site no momento em que o usuário acesse a OneJob.com, assim como as Condições Particulares que, em seu caso, sejam aplicadas.</p>
+          <p class="section-text">A utilização de certos serviços oferecidos aos Candidatos através do site, podem encontrar-se sujeitos a condições particulares próprias que, segundo os casos substituem, completam e/ou modificam as presentes Condições Legais. Portanto, antes da utilização dos referidos serviços, o Candidato também deve ler atentamente e aceitar inclusive as correspondentes Condições Particulares próprias.</p>
+
+          <h2 class="h2 section-title">RESPONSABILIDADES</h2>
+          <p class="section-text">O site apenas e tão somente responde pelos serviços próprios e conteúdos diretamente originados por ele mesmo.</p>
+          <p class="section-text">O site não se responsabiliza nem respalda em nenhum caso, os produtos ou serviços prestados ou ofertados pelo cliente ou por terceiras pessoas ou entidades por meio de se seus serviços, tampouco por conteúdo, informação, comunicação, opinião ou manifestação de qualquer tipo que tenha o cliente ou terceiras pessoas ou entidades e que comuniquem, transmitam ou exponham através de nossos serviços.</p>
+          <p class="section-text">O site poderá eliminar conteúdos ilegais ou supostamente ilegais sem prévio aviso.</p>
+          <p class="section-text">O candidato reconhece que tecnicamente não é possível obter uma disponibilidade do site a 100% (cem por cento). Entretanto o site se esforçará para manter disponível a OneJob da forma mais constante possível. Especialmente por razões de manutenção, segurança ou capacidade, bem como, em razão de acontecimentos sobre os quais não possa interferir o site.</p>
+          <p class="section-text-services">Serviços da OneJob enumeram-se os serviços que o site presta ao candidato:</p>
+          <p class="section-text">1⁰ Inscrição do candidato de forma gratuita no sistema da OneJob através do processo de cadastramento de candidatos, para o encontro com empresas.</p>
+          <p class="section-text">2⁰ Serviços e ferramentas para a gestão da busca de emprego através da plataforma.</p>
+          <p class="section-text">3⁰ Serviço de Alertas de emprego: Recebimento automático e gratuito de vagas através do e-mail cadastrado pelo candidato.</p>
+          <p class="section-text">4⁰ Serviços de comunicações eletrônicas promocionais sobre o setor de recrutamento e seleção, e formação, assim como, relativa aos produtos e serviços que tenha utilizado através de nossa página.</p>
+          <p class="section-text">5⁰ Nossa equipe gestora é quem cuidará do processo seletivo de cada usuário, analisando seu CV e identificando seus critérios e semelhanças com o perfil da empresa e da vaga cadastrada; somente após este processo nossa equipe irá fazer contato com a empresa predadora do serviço via e-mail, com detalhes e informações sobre o candidato anexadas, bem como currículo PDF e e-mail institucional para contato, como reuniões via plataforma Microsoft-Teams.</p>
+          
+
+        </div>
+    </section>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+<!-- Início Seção Rodapé -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <!--Seleção de Título-->
+          <a href="#" class="logo">One Job</a>
+          <!--Seleção de Texto-->
+          <p class="section-text">
+            A partir das pesquisas realizadas voltadas ao desenvolvimento tecnológico, criou-se a plataforma em parceria com o 3° ETIM em Desenvolvimento de Sistemas e Administração.
+          </p>
+
+          <!--Lista de redes-sociais-->
+          <ul class="social-list">
+            <!--facebook-->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <!--twitter-->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <!--linkedin-->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <!--instagram-->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+        <!--Lista de links rodapé-->
+        <ul class="footer-list">
+          <!-- Título -->
+          <li>
+            <p class="footer-list-title">Explorar</p>
+          </li>
+
+          <li>
+            <a href="onejob_sobre-nos.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Sobre Nós</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="onejob_areas.html" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Áreas de atuação</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="form_vaga-freelancer_cadastro.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Cadastro Freelancer</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="form_ONG_cadastro.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Cadastro ONGs</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Privacidade e Política</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+          <!-- Título -->
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="onejob_contato.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Contato</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="onejob_blog.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Blog</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="form_cadastro_vaga.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Anunciar vagas</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="TERMOSECONDICOES.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Termos & Condições</span>
+            </a>
+          </li>
+
+        </ul>
+        <!-- Lista de Informações e contato OneJob -->
+        <ul class="footer-list">
+          <!-- Título -->
+          <li>
+            <p class="footer-list-title">Contato/Informações</p>
+          </li>
+          <!-- Endereço -->
+          <li class="footer-item">
+            <!-- ícone -->
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            <!-- Link endereço -->
+            <address class="footer-link">
+              Av. Conselheiro Rodrigues Alves, 1401, Vila Mariana - SP
+            </address>
+          </li>
+
+          <!-- Telefone 1 -->
+          <li class="footer-item">
+            <!-- ícone -->
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+            <!-- Link Número 1 -->
+            <a href="tel:+551197657839" class="footer-link">+ 55 (11) 9765-7839</a>
+          </li>
+
+          <!-- Telefone 2 -->
+          <li class="footer-item">
+            <!-- ícone -->
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+            <!-- Link Número 2 -->
+            <a href="tel:+551197657840" class="footer-link">+ 55 (11) 9765-7840</a>
+          </li>
+
+          <!-- Email -->
+          <li class="footer-item">
+            <!-- ícone -->
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            <!-- Link endereço email -->
+            <a href="mailto:contact@gatch.com" class="footer-link">contact@gatch.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- Botão Copyright -->
+      <div class="footer-bottom">
+        <!-- Link Copyright -->
+        <p class="copyright">
+          Copyright 2022 Gatch. All Rights Reserved by <a href="#" class="copyright-link">onejob</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- FIM Seção Rodapé -->
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <!-- Início Botão  De Volta Pro Topo -->
+  <!-- Link de Ordem -->
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <!-- ícone -->
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/web_onejob.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

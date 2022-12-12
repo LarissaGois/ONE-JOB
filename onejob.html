@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONE JOB - Pelo job dos seus sonhos</title>
+
+  <!-- 
+    - favicon link
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style_home.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <!--<a href="https://br.freepik.com/fotos-gratis/medico-serio-em-mascara-medica-e-bone-olhando_7109982.htm#query=profiss%C3%B5es&position=13&from_view=search">Imagem de drobotdean</a> no Freepik-->
+  <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+  <!--<a href="https://br.freepik.com/fotos-gratis/zelador-masculino-asiatico-alegre-andando-no-quarto-de-hotel-carregando-suprimentos-no-balde_5577541.htm#query=profiss%C3%B5es&position=30&from_view=search">Imagem de pressfoto</a> no Freepik-->
+  <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+  <!--<a href="https://br.freepik.com/fotos-gratis/gerente-de-sucesso-feliz-segurando-oculos_6101392.htm#query=profissionais&position=47&from_view=keyword">Imagem de pch.vector</a> no Freepik-->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+   <!-- Início Seção Cabeçalho -->
+  <header class="header" data-header>
+    <div class="container">
+      <!-- Nome Logo -->
+      <h1>
+        <a href="onejob.html" class="logo">ONE JOB</a>
+      </h1>
+
+      <!-- Cabeçalho -->
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <!-- Link Logo -->
+          <a href="onejob.html" class="logo">ONE JOB</a>
+          <!-- Butão Cabeçalho -->
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <!-- Ícone -->
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        
+        <!-- Lista de categoria/páginas -->
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob.html" class="navbar-link" data-nav-toggler>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_sobre-nos.html" class="navbar-link" data-nav-toggler>Sobre Nós</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_areas.html" class="navbar-link" data-nav-toggler>Áreas de Atuação</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_vaga-freelancer_cadastro.html" class="navbar-link" data-nav-toggler>Cadastrar Freelancer</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_cadastro_vaga.html" class="navbar-link" data-nav-toggler>Anunciar Vagas</a>
+          </li>
+
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="onejob_blog.html" class="navbar-link" data-nav-toggler>Blog</a>
+          </li>
+          
+          <li class="navbar-item">
+            <!-- Nome Link -->
+            <a href="form_ONG_cadastro.html" class="navbar-link" data-nav-toggler>ONGs</a>
+          </li>
+
+          <li class="navbar-item"><!-- Nome Link -->
+            <a href="TERMOSECONDICOES.html" class="navbar-link" data-nav-toggler>Termos e Condições</a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+      <!-- Cabeçalho -->
+
+      <div class="header-actions">
+        <!-- Botão integrado a página de Login-Registro-->
+        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        <!-- Link Botão  -->
+        <a href="login-registro.html" class="header-action-btn login-btn">
+          <!-- ícone -->
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          <!-- Texto Botão  -->
+          <span class="span">Login / Registro</span>
+        </a>
+        <!-- Botão abrir cabeçalho -->
+        <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+          <!-- ícone -->
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+   <!-- FIM Seção Cabeçalho -->
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+   <!-- Início Seção Caixa de Pesquisa -->
+  <div class="search-container" data-search-box>
+    <div class="container">
+       <!-- Botão search box -->
+      <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+        <!-- ícone -->
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+       <!-- Texto Botão -->
+      <div class="search-wrapper">
+        <input type="search" name="search" placeholder="Search Here..." aria-label="Search" class="search-field">
+        <!-- Botão confirmação/enviar -->
+        <button class="search-submit" aria-label="Submit" data-search-toggler>
+          <!-- ícone -->
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <main>
+    <article>
+
+      <!-- FIM Seção Caixa de Pesquisa -->
+
+
+
+      <!-- 
+        - #HERO
+      -->
+
+      <!-- Início Página Principal -->
+      <section class="hero" id="home" aria-label="hero" style="background-image: url('./assets/images/Fundo.png')">
+        <div class="container">
+
+          <div class="hero-content"> 
+
+            <!--Seleção de Textos-->
+            <p class="section-subtitle">Uma iniciativa Gatch</p>
+
+            <h2 class="h1 hero-title">Em busca pelo emprego dos seus sonhos?</h2>
+
+            <p class="hero-text">
+              A nossa equipe de seleção profissional te avalia e direciona para o cargo mais recomendado de acordo com o seu currículo.
+            </p>
+            <!--Botão integrado a página de Login-Registro-->
+            <a href="login-registro.html" class="btn btn-primary">
+              <span class="span">Entre para nosso time</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <!--Imagens  Página Principal-->
+          <figure class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="500" height="500" loading="lazy" alt="hero image"
+              class="w-100">
+
+            <img src="./assets/images/hero-abs-1.png" width="318" height="352" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+
+            <img src="./assets/images/hero-abs-2.png" width="160" height="160" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2">
+
+          </figure>
+
+        </div>
+      </section>
+      <!-- FIM Página Principal -->
+
+
+
+
+      <!-- 
+        - #ÁREAS POPULARES
+      -->
+
+      <!-- Início Seção ÁREAS POPULARES -->
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <!-- Títulos -->
+          <p class="section-subtitle">Áreas de Atuação</p>
+
+          <h2 class="h2 section-title">Tópicos Populares de Trabalho</h2>
+
+          <!-- Lista de categorias -->
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="onejob_area_administração.html">Administração</a>
+                  </h3>
+
+                  <span class="card-meta">456 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="fast-food-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="#">Gastronomia</a>
+                  </h3>
+                  <!-- Número Vagas -->
+                  <span class="card-meta">1034 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="color-palette-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="#">Design</a>
+                  </h3>
+                  <!-- Número Vagas -->
+                  <span class="card-meta">109 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="medkit-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="#">Saúde</a>
+                  </h3>
+                  <!-- Número Vagas -->
+                  <span class="card-meta">834 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="construct-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="onejob_area_engenharia.html">Engenharia</a>
+                  </h3>
+                  <!-- Número Vagas -->
+                  <span class="card-meta">756 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="business-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="#">Infraestrutura</a>
+                  </h3>
+                  <!-- Número Vagas -->
+                  <span class="card-meta">567 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="onejob_area_informatica.html">Informática</a>
+                  </h3>
+                  <!-- Número Vagas -->
+                  <span class="card-meta">1206 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="#">Economia</a>
+                  </h3>
+                  <!-- Número Vagas -->
+                  <span class="card-meta">578 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <!-- ícone -->
+                  <ion-icon name="trash-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <!-- Título Link -->
+                    <a href="#">Limpeza</a>
+                  </h3>
+                  <!-- Número Vagas -->
+                  <span class="card-meta">344 Vagas</span>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- FIM Seção de ÁREAS POPULARES -->
+
+
+
+
+
+      <!-- 
+        - #SOBRE NÓS
+      -->
+
+      <!-- Início Seção SOBRE-NOS -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <!-- Imagens da seção SOBRE-NOS -->
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="450" height="590" loading="lazy" alt="about banner"
+              class="w-100 about-img">
+
+            <img src="./assets/images/about-abs-1.jpg" width="188" height="242" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+
+            <img src="./assets/images/about-abs-2.jpg" width="150" height="200" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2">
+
+          </figure>
+
+          <div class="about-content">
+
+            <!-- Títulos -->
+            <p class="section-subtitle">Quem Somos?</p>
+
+            <h2 class="h2 section-title">Conectando você ao seu sonho</h2>
+
+            <!-- Lista de texto Missão, Visão e Valores -->
+            <ul class="about-list">
+
+              <li class="about-item">
+                <!-- ícone -->
+                <div class="item-icon item-icon-1">
+                  <img src="./assets/images/about-icon-1.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <!-- Título do texto -->
+                <div>
+                  <h3 class="h3 item-title">Missão</h3>
+                  <!-- Texto -->
+                  <p class="item-text">
+                    Ajudar as pessoas, em sua maioria os que possuem mais dificuldades, a ter um emprego que se adeque às suas habilidades.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+                <!-- ícone -->
+                <div class="item-icon item-icon-2">
+                  <img src="./assets/images/about-icon-2.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <div>
+                  <!-- Título do texto -->
+                  <h3 class="h3 item-title">Visão</h3>
+                  <!-- Texto -->
+                  <p class="item-text">
+                    Expandir e abrir escritórios pelo mundo, de modo que pudéssemos ajudar aqueles que precisam de emprego e que nos procuram.
+
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+                <!-- ícone -->
+                <div class="item-icon item-icon-3">
+                  <img src="./assets/images/about-icon-3.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <div>
+                  <!-- Título do texto -->
+                  <h3 class="h3 item-title">Valores</h3>
+                  <!-- Texto -->
+                  <p class="item-text">
+                    Respeito, honestidade, criatividade, originalidade e responsabilidade.
+
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+            <!--Botão integrado a página "onejob_sobre-nos" -->
+            <a href="onejob_sobre-nos.html" class="btn btn-primary">
+              <span class="span">Sobre Nós</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- FIM Seção SOBRE-NOS -->
+
+
+
+
+      <!-- 
+        - #VAGAS POPULARES
+      -->
+
+      <!-- Início Seção VAGAS POPULARES -->
+      <section class="section course" id="courses" aria-label="course">
+        <div class="container">
+          
+          <!-- Títulos -->
+          <p class="section-subtitle">Vagas Populares</p>
+
+          <h2 class="h2 section-title">Nossas vagas em alta</h2>
+
+          <ul class="grid-list">
+
+            
+             <!-- Lista de Cards de Vagas -->
+            <li>
+              <div class="course-card">
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/joe-holland-80zZ1s24Nag-unsplash.jpg" width="370" height="270" loading="lazy"
+                    alt="Construtores civis" class="img-cover">
+                    <!--Photo by <a href="https://unsplash.com/@jos_holland111?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joe Holland</a> on <a href="https://unsplash.com/s/photos/obras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                </figure>
+
+                <div class="card-actions">
+                  <!-- Área da vaga -->
+                  <span a href="#" class="badge" >Construção Civil</span>
+
+                  <!-- Botão de Favorito -->
+                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button>
+
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+                    
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tipo da Vaga -->
+                      <span class="card-meta-text">Efetivo CLT</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tempo da Vaga -->
+                      <time datetime="PT18H15M44S" class="card-meta-text">Turno de 8 horas</time>
+                    </li>
+
+                  </ul>
+                  <ul class="card-meta-list">
+                  <div class="card-meta-item">
+                    <!-- Ícone -->
+                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                    <!-- Quantidade de vagas -->
+                    <span class="card-meta-text">77 Vagas</span>
+                  </div>
+                </ul>
+
+                  <!-- Título da vaga  -->
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Servente de Obras</a>
+                  </h3>
+
+                  <!-- Descrição da vaga  -->
+                  <div class="rating-wrapper">
+                    <span class="rating-text">Desejável experiência anterior em construção civil, disponibilidade para viagem.Supervisionar equipes de trabalhadores e delegar tarefas e Inspecionar a execução delas.
+                    </span>
+
+                  </div>
+
+                  <!-- Rodapé do card  -->
+                  <div class="card-footer">
+
+                    <div class="card-meta-item">
+                      <!-- ícone -->
+                      <ion-icon name="earth-outline"></ion-icon>
+                      <!-- Cidade e Município da vaga -->
+                      <span class="card-meta-text">São Paulo - SP</span>
+                    </div>
+                    <!-- Salário da vaga -->
+                    <div class="card-price">
+                      <span class="span">R$1.500,00 - R$1.877,00</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/tyler-franta-iusJ25iYu1c-unsplash.jpg" width="370" height="270" loading="lazy"
+                    alt="negócios" class="img-cover">
+                <!--Photo by <a href="https://unsplash.com/@tfrants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tyler Franta</a> on <a href="https://unsplash.com/s/photos/administration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                  </figure>
+
+                <div class="card-actions">
+                  <!-- Área da vaga -->
+                  <span class="badge">Administração</span>
+                  
+                  <!-- Botão de Favorito -->
+                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button>
+
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item"> 
+                      <!-- Ícone -->
+                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tipo da Vaga -->
+                      <span class="card-meta-text">Efetivo CLT</span>
+                    </li>
+                    <!-- Ícone -->
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tempo da Vaga -->
+                      <time datetime="PT18H15M44S" class="card-meta-text">Turno de 8 horas</time>
+                    </li>
+
+                  </ul>
+                  <ul class="card-meta-list">
+                    <div class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <!-- Quantidade de vagas -->
+                      <span class="card-meta-text">103 Vagas</span>
+                    </div>
+                  </ul>
+
+                  <!-- Título da vaga  -->
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Auxiliar de Administração</a>
+                  </h3>
+
+                   <!-- Descrição da vaga  -->
+                  <div class="rating-wrapper">
+                    <span class="rating-text">Auxiliar nos processos de compras de materiais. Emitir pedidos e notas fiscais. Realizar cotações e acompanhar os prazos de entrega e conhecimento no pacote Office..</span>
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-meta-item">
+                      <!-- ícone -->
+                      <ion-icon name="earth-outline"></ion-icon>
+                      <!-- Cidade e Município da vaga -->
+                      <span class="card-meta-text">São Paulo - SP</span>
+                    </div>
+                    <!-- Salário da vaga -->
+                    <div class="card-price">
+                      <span class="span">R$1.200,00 - R$2.000,00</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/freestocks-I_pOqP6kCOI-unsplash.jpg" width="370" height="270" loading="lazy"
+                    alt="notebook" class="img-cover">
+               <!--Photo by <a href="https://unsplash.com/@freestocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">freestocks</a> on <a href="https://unsplash.com/s/photos/tecnology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                  </figure>
+
+                <div class="card-actions">
+                  <!-- Área da vaga -->
+                  <span class="badge">Informática</span>
+
+                  <!-- Botão de Favorito -->
+                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button>
+
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tipo da Vaga -->
+                      <span class="card-meta-text">Freelancer</span>
+                    </li>
+
+                  </ul>
+                  <ul class="card-meta-list">
+                    <div class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                       <!-- Quantidade de vagas -->
+                      <span class="card-meta-text">1 Vaga</span>
+                    </div>
+
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tempo da Vaga -->
+                      <time datetime="PT18H15M44S" class="card-meta-text">Turno de 8 horas</time>
+                    </li>
+                  </ul>
+                  <!-- Título da vaga  -->
+                  <h3 class="h3">
+                    <a href="onejob_vaga1.html" class="card-title">Analista de Negócios de TI</a>
+                  </h3>
+
+                  <!-- Descrição da vaga  -->
+                  <div class="rating-wrapper">
+                    <span class="rating-text">Formação na área de Tecnologia / Engenharia, Conhecimentos sólidos de Microsoft Excel, Idioma Inglês fluente, Domínio do Microsoft Analysis Services e Domínio de conceitos de contabilidade.
+                    </span>
+
+                  </div>
+
+                  <!-- Rodapé do card  -->
+                  <div class="card-footer">
+
+                    <div class="card-meta-item">
+                      <!-- ícone -->
+                      <ion-icon name="earth-outline"></ion-icon>
+                      <!-- Cidade e Município da vaga -->
+                      <span class="card-meta-text">São Paulo - SP</span>
+                    </div>
+                    <!-- Salário da vaga -->
+                    <div class="card-price">
+                      <span class="span">R$8.100,00 - R$9.000,00</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/rod-long-kImU-9S9uh8-unsplash.jpg" width="370" height="270" loading="lazy"
+                    alt="Cozinhando" class="img-cover">
+                    <!--Photo by <a href="https://unsplash.com/@rodlong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rod Long</a> on <a href="https://unsplash.com/s/photos/cook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                </figure>
+
+                <div class="card-actions">
+                  <!-- Área da vaga -->
+                  <span class="badge">Gastronomia</span>
+                  <!-- Botão de Favorito -->
+                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button>
+
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tipo da Vaga -->
+                      <span class="card-meta-text">Efetivo CLT</span>
+                    </li>
+                    <!-- Ícone -->
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tempo da Vaga -->
+                      <time datetime="PT18H15M44S" class="card-meta-text">Turno de 8 horas</time>
+                    </li>
+
+                  </ul>
+
+                  <ul class="card-meta-list">
+                    <div class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <!-- Quantidade de vagas -->
+                      <span class="card-meta-text">33 Vagas</span>
+                    </div>
+                  </ul>
+
+                  <!-- Título da vaga  -->
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Auxiliar de Cozinha</a>
+                  </h3>
+
+                  <!-- Descrição da vaga  -->
+                  <div class="rating-wrapper">
+                    <span class="rating-text">Auxiliar na preparação do café, Higienizar hortifruti e equipamentos, Escolher os grãos, cortar os temperos e preparar as saladas; Servir as refeições e Experiência na área alimentícia.
+                    </span>
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-meta-item">
+                      <!-- ícone -->
+                      <ion-icon name="earth-outline"></ion-icon>
+                      <!-- Cidade e Município da vaga -->
+                      <span class="card-meta-text">São Bernardo do Campo - SP</span>
+                    </div>
+                    <!-- Salário da vaga -->
+                    <div class="card-price">
+                      <span class="span">R$1.200,00 - R$2.000,00</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                 <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/thisisengineering-raeng-yhCHx8Mc-Kc-unsplash.jpg" width="370" height="270" loading="lazy"
+                    alt="Analysta" class="img-cover">
+                    <!--Photo by <a href="https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ThisisEngineering RAEng</a> on <a href="https://unsplash.com/s/photos/tecnology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                </figure>
+
+                <div class="card-actions">
+                  <!-- Área da vaga -->
+                  <span class="badge">Informática
+                  </span>
+                  
+                  <!-- Botão de Favorito -->
+                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button>
+
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tipo da Vaga -->
+                      <span class="card-meta-text">Efetivo CLT</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tempo da Vaga -->
+                      <time datetime="PT18H15M44S" class="card-meta-text">Turno de 8 horas</time>
+                    </li>
+
+                  </ul>
+                  <ul class="card-meta-list">
+                    <div class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <!-- Quantidade de vagas -->
+                      <span class="card-meta-text">5 Vagas</span>
+                    </div>
+                  </ul>
+
+                  <!-- Título da vaga  -->
+                  <h3 class="h3">
+                    <a href="onejob_vaga2.html" class="card-title">Analista de Sistemas</a>
+                  </h3>
+
+                  <!-- Descrição da vaga  -->
+                  <div class="rating-wrapper">
+                    <span class="rating-text">Admistrar banco de dados e informações pertinentes, Conhecimento em Sistemas, Conhecimento em SQL, Ensino superior completo (Análise e desenvolvimento de sistemas, T.I e áreas correlatas)</span>
+
+                  </div>
+
+                  <!-- Rodapé do card  -->
+                  <div class="card-footer">
+
+                    <div class="card-meta-item">
+                      <!-- ícone -->
+                      <ion-icon name="earth-outline"></ion-icon>
+                      <!-- Cidade e Município da vaga -->
+                      <span class="card-meta-text">São Paulo - SP</span>
+                    </div>
+                    <!-- Salário da vaga -->
+                    <div class="card-price">
+                      <span class="span">R$9.000,00 - R$10.000,00</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/ashwini-chaudhary-monty--4KzDiyZjgw-unsplash.jpg" width="370" height="270" loading="lazy"
+                    alt="Auxiliar Limpeza" class="img-cover">
+                    <!--Photo by <a href="https://unsplash.com/@suicide_chewbacca?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ashwini Chaudhary(Monty)</a> on <a href="https://unsplash.com/s/photos/cleaner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                </figure>
+
+                <div class="card-actions">
+                  <!-- Área da vaga -->
+                  <span class="badge">Limpeza</span>
+                  <!-- Botão de Favorito -->
+                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button>
+
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tipo da Vaga -->
+                      <span class="card-meta-text">Efetivo CLT</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                      <!-- Tempo da Vaga -->
+                      <time datetime="PT18H15M44S" class="card-meta-text">Turno de 8 horas</time>
+                    </li>
+
+                  </ul>
+
+                  <ul class="card-meta-list">
+                    <div class="card-meta-item">
+                      <!-- Ícone -->
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <!-- Quantidade de vagas -->
+                      <span class="card-meta-text">103 Vagas</span>
+                    </div>
+                  </ul>
+                  
+                  <!-- Título da vaga  -->
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Auxiliar de Limpeza</a>
+                  </h3>
+
+                  <!-- Descrição da vaga  -->
+                  <div class="rating-wrapper">
+                    <span class="rating-text">Executar a limpeza da unidade do paciente e a conservação de toda a área social do hospital e demais áreas utilizadas pelo cliente de saúde.Trabalhar utilizando EPI's.</span>
+
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-meta-item">
+                      <!-- ícone -->
+                      <ion-icon name="earth-outline"></ion-icon>
+                      <!-- Cidade e Município da vaga -->
+                      <span class="card-meta-text">São Paulo - SP</span>
+                    </div>
+                    <!-- Salário da vaga -->
+                    <div class="card-price">
+                      <span class="span">R$1.100,00 - R$2.000,00</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <!--Botão integrado a página de "onejob_areas" -->
+          <a href="onejob_areas.html" class="btn btn-primary">
+            <!-- Texto Botão -->
+            <span class="span">Ver mais vagas</span>
+            <!-- ícone -->
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- FIM Seção VAGAS POPULARES -->
+
+
+
+      <!-- 
+        - #CTA ONEJOB
+      -->
+      <!-- Início Seção CTA ONEJOB -->
+      <section class="section cta" aria-label="onejob" style="background-image: url('./assets/images/cta-bg.png')">
+        <div class="container">
+
+          <!-- Imagem de Fundo do CTA -->
+          <figure class="cta-banner">
+            <img src="./assets/images/cherrydeck-rMILC1PIwM0-unsplash.jpg" width="580" height="380" loading="lazy" alt="cta banner"
+              class="img-cover">
+              <!--Photo by <a href="https://unsplash.com/@cherrydeck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cherrydeck</a> on <a href="https://unsplash.com/s/photos/team?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+          </figure>
+
+          <!--Seleção de Textos-->
+          <div class="cta-content">
+
+            <p class="section-subtitle">UMA INICIATIVA GATCH</p>
+
+            <h2 class="h2 section-title">Venha para a One Job</h2>
+
+            <p class="section-text">
+              A One Job é a plataforma digital da Gatch. 
+              Nela, oferecemos a maior diversidade 
+              de vínculos profissionais possível:<br>
+
+              <br>- Trabalho formal e empresas lucrativas;
+              <br>- Bicos e negócios informais;
+              <br>- Trabalho eventual;
+              <br>- Trabalho avulso 
+              <br>- Trabalho com eventos;
+              <br>- Estágios e estudantes;
+              <br>- Trabalho voluntário e ONG's</p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- FIM Seção CTA ONEJOB -->
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <!-- Início Seção Blog -->
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+          <!--Seleção de Título-->
+          <p class="section-subtitle">Blog One Job</p>
+
+          <h2 class="h2 section-title">Venha ler nossas matérias</h2>
+
+          <!-- Lista Cards de matérias -->
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/bram-naus-n8Qb1ZAkK88-unsplash.jpg" width="370" height="250" loading="lazy"
+                    alt="Innovation & Technological Entrepreneurship Team" class="img-cover">
+                   <!--Photo by <a href="https://unsplash.com/@bramnaus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bram Naus</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+  
+                </figure>
+                <!-- Data do matéria -->
+                <time class="badge" datetime="2022-12-04">04 Dec 2022</time>
+
+                <div class="card-content">
+                  <!-- Título do card -->
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Como montar o melhor currículo?</a>
+                  </h3>
+                  <!-- Botão do card -->
+                  <a href="#" class="btn-link">
+                    <!-- Texto Botão -->
+                    <span class="span">Ler matéria</span>
+                    <!-- Ícone -->
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/sebastian-herrmann-NbtIDoFKGO8-unsplash.jpg" width="370" height="250" loading="lazy"
+                    alt="Virtual Spring Part-time Jobs Fair for Student" class="img-cover">
+                    <!--Photo by <a href="https://unsplash.com/@officestock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastian Herrmann</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                </figure>
+                <!-- Data do matéria -->
+                <time class="badge" datetime="2022-10-30">30th Oct 2022</time>
+
+                <div class="card-content">
+                  <!-- Título do card -->
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Como se portar numa entrevista de emprego?</a>
+                  </h3>
+                  <!-- Botão do card -->
+                  <a href="#" class="btn-link">
+                    <!-- Texto Botão -->
+                    <span class="span">Ler Matéria</span>
+                    <!-- Ícone -->
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/saulo-mohana-wNz7_5EvUWU-unsplash.jpg" width="370" height="250" loading="lazy"
+                    alt="Explorations of Regional Chief Executive Network" class="img-cover">
+                    <!--Photo by <a href="https://unsplash.com/@saulomohana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Saulo Mohana</a> on <a href="https://unsplash.com/s/photos/choices?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                </figure>
+                <!-- Data do matéria -->
+                <time class="badge" datetime="2022-09-18">18th Sep 2022</time>
+                <div class="card-content">
+                  <!-- Título do card -->
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Como escolher minha carreira?</a>
+                  </h3>
+                  <!-- Botão do card -->
+                  <a href="#" class="btn-link">
+                    <!-- Texto Botão -->
+                    <span class="span">Ler matéria</span>
+                    <!-- Ícone -->
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <!-- Imagem do card -->
+                <figure class="card-banner">
+                  <img src="./assets/images/headway-5QgIuuBxKwM-unsplash.jpg" width="370" height="250" loading="lazy"
+                    alt="Innovation & Technological Entrepreneurship Team" class="img-cover">
+                    <!--Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> on <a href="https://unsplash.com/s/photos/comunication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                </figure>
+
+                <!-- Data do matéria -->
+                <time class="badge" datetime="2022-12-04">04 Dec 2022</time>
+
+                <div class="card-content">
+                  <!-- Título do card -->
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Como aprender a se comunicar melhor?</a>
+                  </h3>
+                  <!-- Botão do card -->
+                  <a href="#" class="btn-link">
+                    <!-- Texto Botão -->
+                    <span class="span">Ler matéria</span>
+                    <!-- Ícone -->
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <!-- Botão Lincado a página "onejob_blog.html" -->
+          <a href="onejob_blog.html" class="btn btn-primary">
+            <!-- Texto Botão -->
+            <span class="span">Ver mais matérias</span>
+            <!-- Ícone -->
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </section>
+
+      <!-- FIM Seção Blog -->
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <!-- Início Seção Newsletter -->
+      <section class="section newsletter" aria-label="newsletter"
+        style="background-image: url('./assets/images/newsletter.png')">
+        <div class="container">
+          <!--Seleção de Título -->
+          <p class="section-subtitle">Assine o Newsletter</p>
+
+          <h2 class="h2 section-title">Receba todas as últimas notícias</h2>
+
+          <!--Formulário Newsletter-->
+          <form action="" class="newsletter-form">
+
+
+            <div class="input-wrapper">
+              <!--Seleção entrada de email-->
+              <input type="email" name="email_address" aria-label="email" placeholder="Enter your mail address" required
+                class="email-field">
+              <!--Ícone-->
+              <ion-icon name="mail-open-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <!--Seleção de Botão-->
+            <button type="submit" class="btn btn-primary">
+              <span class="span">Increver-se</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+           <!--FIM Formulário Newsletter-->
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Início Seção Newsletter -->
+
+
+
+ <!-- 
+    - #FOOTER
+  -->
+<!-- Início Seção Rodapé -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <!--Seleção de Título-->
+          <a href="#" class="logo">One Job</a>
+          <!--Seleção de Texto-->
+          <p class="section-text">
+            A partir das pesquisas realizadas voltadas ao desenvolvimento tecnológico, criou-se a plataforma em parceria com o 3° ETIM em Desenvolvimento de Sistemas e Administração.
+          </p>
+
+          <!--Lista de redes-sociais-->
+          <ul class="social-list">
+            <!--facebook-->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <!--twitter-->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <!--linkedin-->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <!--instagram-->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+        <!--Lista de links rodapé-->
+        <ul class="footer-list">
+          <!-- Título -->
+          <li>
+            <p class="footer-list-title">Explorar</p>
+          </li>
+
+          <li>
+            <a href="onejob_sobre-nos.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Sobre Nós</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="onejob_areas.html" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Áreas de atuação</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="form_vaga-freelancer_cadastro.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Cadastro Freelancer</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="form_ONG_cadastro.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Cadastro ONGs</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Privacidade e Política</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+          <!-- Título -->
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="onejob_contato.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Contato</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="onejob_blog.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Blog</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="form_cadastro_vaga.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Anunciar vagas</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="TERMOSECONDICOES.html" class="footer-link">
+              <!-- ícone -->
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              <!-- Nome Link -->
+              <span class="span">Termos & Condições</span>
+            </a>
+          </li>
+
+        </ul>
+        <!-- Lista de Informações e contato OneJob -->
+        <ul class="footer-list">
+          <!-- Título -->
+          <li>
+            <p class="footer-list-title">Contato/Informações</p>
+          </li>
+          <!-- Endereço -->
+          <li class="footer-item">
+            <!-- ícone -->
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            <!-- Link endereço -->
+            <address class="footer-link">
+              Av. Conselheiro Rodrigues Alves, 1401, Vila Mariana - SP
+            </address>
+          </li>
+
+          <!-- Telefone 1 -->
+          <li class="footer-item">
+            <!-- ícone -->
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+            <!-- Link Número 1 -->
+            <a href="tel:+551197657839" class="footer-link">+ 55 (11) 9765-7839</a>
+          </li>
+
+          <!-- Telefone 2 -->
+          <li class="footer-item">
+            <!-- ícone -->
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+            <!-- Link Número 2 -->
+            <a href="tel:+551197657840" class="footer-link">+ 55 (11) 9765-7840</a>
+          </li>
+
+          <!-- Email -->
+          <li class="footer-item">
+            <!-- ícone -->
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            <!-- Link endereço email -->
+            <a href="mailto:contact@gatch.com" class="footer-link">contact@gatch.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- Botão Copyright -->
+      <div class="footer-bottom">
+        <!-- Link Copyright -->
+        <p class="copyright">
+          Copyright 2022 Gatch. All Rights Reserved by <a href="#" class="copyright-link">onejob</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- FIM Seção Rodapé -->
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <!-- Início Botão  De Volta Pro Topo -->
+  <!-- Link de Ordem -->
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <!-- ícone -->
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - js link
+  -->
+  <script src="./assets/js/web_onejob.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
